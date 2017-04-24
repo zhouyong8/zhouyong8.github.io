@@ -1,0 +1,258 @@
+@charset "utf-8";/* CSS Document */
+h1, h2, h3, h4, h5, h6{font-size:100%;font-weight:normal;}
+*{margin:0px;padding:0px;list-style:none;border:none;text-decoration:none;}
+.clear{clear:both;height:0.01rem;}
+a{color:#363335;text-decoration:none;font-family:"微软雅黑";}
+body{font-family:"微软雅黑";width:100%;margin:0 auto;min-width:320px;max-width:640px;}
+
+p{font-family:"微软雅黑";}
+.cont img{width:100%;}	/*切整张图专用*/
+
+
+.header{ height: 75px; width:100%; display: block; margin: 0 auto; overflow: hidden; background: #333;}
+.logo{ float: left; width:100px; padding: 12px 0 0 10px; display: block; overflow: hidden; }
+.titlename{  float: left; display: block; overflow: hidden; text-align: center; padding: 18px 0 0 0; height: 50px;}
+.backhome{ float: right; width:100px; padding: 18px 15px 0 10px; height: 50px; text-align: right;}
+
+
+//////////////////////
+
+/*start--banner*/
+#sli{width:100%; }
+#sli .bd img{width:100%;margin-top: 20px;}
+#sli .hd{overflow: hidden;width: 100px;margin: 0 auto;padding: 0.15rem 0;}
+#sli .hd li{float: left;width: 15px;height: 15px;border-radius: 20px;overflow: hidden;margin-right: 10px;text-indent: -99.9rem;cursor: pointer;background: #ffffff;border: 1px solid #F4981B;}
+#sli .hd li.on{background: #F4981B; }
+
+
+.footer {
+		width: 100%;
+		height: 116px;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		line-height: 116px;
+		z-index: 100;
+		display: none;
+	}
+	
+	.footer .footerInner {
+		width: 100%;
+		height: 100%;
+		-moz-box-shadow: 6px 0 24px rgba(32, 21, 18, .72);
+		-webkit-box-shadow: 6px 0 24px rgba(32, 21, 18, .72);
+		box-shadow: 6px 0 24px rgba(32, 21, 18, .72);
+		box-sizing: border-box;
+	}
+	
+	.footer a {
+		display: block;
+		float: left;
+		position: relative;
+	}
+	
+	.footer a em,
+	.footer a i {
+		display: block;
+		position: absolute;
+	}
+	
+	.footerLink2 {
+		box-sizing: border-box;
+		width: 31.875%;
+		height: 100%;
+		background-color: #ff6005;
+	}
+	/*1*/
+	
+	.swtIcon {
+		left: 50%;
+		top: 36px;
+		width: 54px;
+		height: 48px;
+		margin-left: -100px;
+		background: url(../img/footerLink2.png) no-repeat;
+	}
+	
+	.swtIcon_Counter {
+		left: 50%;
+		top: 30px;
+		width: 28px;
+		height: 28px;
+		margin-left: -68px;
+		text-align: center;
+		line-height: 26px;
+		background-color: #e60012;
+		color: #fff;
+		font-size: 18px;
+		font-style: normal;
+		-moz-border-radius: 28px;
+		-webkit-border-radius: 28px;
+		border-radius: 28px;
+		-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+		-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+		box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+	}
+	
+	.footerLink2 em {
+		display: block;
+		left: 50%;
+		top: 50%;
+		margin-left: -28px;
+		margin-top: -23px;
+		color: #fff;
+		font-size: 32px;
+		line-height: 46px;
+	}
+	
+	.footerLink3 {
+		box-sizing: border-box;
+		width: 31.875%;
+		height: 100%;
+		background-color: #26c540;
+	}
+	/*2*/
+	
+	.phoneIcon {
+		left: 50%;
+		top: 50%;
+		width: 54px;
+		height: 54px;
+		margin-top: -27px;
+		margin-left: -90px;
+		background: url(../img/footerLink3.png) no-repeat;
+	}
+	
+	.footerLink3 em {
+		display: block;
+		left: 50%;
+		top: 50%;
+		margin-left: -28px;
+		margin-top: -23px;
+		color: #fff;
+		font-size: 32px;
+		line-height: 46px;
+	}
+	
+	.footerLink4 {
+		box-sizing: border-box;
+		width: 18.125%;
+		height: 100%;
+		background-color: #2e3642;
+		border-right: 1px solid #464e5b;
+	}
+	/*3*/
+	
+	.sqfqIcon {
+		left: 50%;
+		top: 21px;
+		width: 50px;
+		height: 50px;
+		margin-left: -29px;
+		background: url(../img/footerLink4.png) no-repeat;
+	}
+	
+	.footerLink1 em,
+	.footerLink4 em {
+		display: block;
+		left: 0;
+		top: 68px;
+		width: 100%;
+		color: #6a7380;
+		font-size: 20px;
+		line-height: 36px;
+		text-align: center;
+	}
+	
+	.footerLink1 {
+		box-sizing: border-box;
+		width: 18.125%;
+		height: 100%;
+		background-color: #2e3642;
+	}
+	/*4*/
+	
+	.homeIcon {
+		left: 50%;
+		top: 18px;
+		width: 59px;
+		height: 50px;
+		margin-left: -29px;
+		background: url(../img/footerLink1.png) no-repeat;
+	}
+	/*end-footer*/
+	
+	@media screen and (min-width:320px) and (max-width:900px) {
+		.footer {
+			height: 58px;
+		}
+		.homeIcon {
+			top: 9px;
+			width: 30px;
+			height: 25px;
+			margin-left: -15px;
+			-moz-background-size: 100% 100%;
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.sqfqIcon {
+			top: 9px;
+			width: 29px;
+			height: 22px;
+			margin-left: -15px;
+			-moz-background-size: 100% 100%;
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.footerLink1 em,
+		.footerLink4 em {
+			font-size: 10px;
+			top: 34px;
+			line-height: 18px;
+		}
+		.swtIcon {
+			top: 18px;
+			width: 27px;
+			height: 24px;
+			margin-left: -50px;
+			-moz-background-size: 100% 100%;
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.swtIcon_Counter {
+			top: 15px;
+			width: 14px;
+			height: 14px;
+			margin-left: -34px;
+			line-height: 13px;
+			font-size: 9px;
+		}
+		.footerLink2 em {
+			font-size: 16px;
+			line-height: 23px;
+			margin-left: -14px;
+			margin-top: -12px;
+		}
+		.phoneIcon {
+			width: 27px;
+			height: 27px;
+			margin-top: -14px;
+			margin-left: -45px;
+			-moz-background-size: 100% 100%;
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
+		}
+		.footerLink3 em {
+			font-size: 16px;
+			line-height: 23px;
+			margin-left: -14px;
+			margin-top: -12px;
+		}
+	}
+	
+.bm{ width: 100%; height:80px; overflow: hidden; display: block; background: #422d1a; margin-top: 20px;}
+.bm ul li{ width: 50%; float: left;  padding-top: 30px; text-align: center; }
+.wbox{   margin: 10px auto;  display: block; overflow: hidden; text-align: center;
+height: auto;
+max-width: 100%;} 
+.wbox img{height: auto; width: auto\9; width:100%;}

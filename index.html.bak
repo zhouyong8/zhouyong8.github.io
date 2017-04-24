@@ -95,10 +95,7 @@
 
 
 
-<script type="text/javascript">
-	$(".closeBtn_swt").on("click",function(){closeSwt();}) function openMswt(){$("#swtCenter").show().removeClass("fadeInDown").addClass("fadeInDown").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){ $(".footer").stop().animate({bottom:-$(".footer").height()+'px'},400,function(){$(this).show(); }); });} function closeSwt(){$("#swtCenter").removeClass("fadeInDown").addClass("fadeOutDown").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){ $(this).removeClass("fadeOutDown").hide();$(".footer").show().stop().animate({bottom:0+'px'},400,function(){setTimeout(openMswt,window.tk_jg);}); }); } setTimeout(openMswt,window.tk_sj);
 
-</script>
     
     </body>
 </html>
