@@ -1,0 +1,224 @@
+/*@import "/skins/default/resetcommon.css";*/
+/*index.css start*/
+@charset "utf-8";
+/* CSS Document */
+/*common*/
+.mb10 { margin-bottom:10px;}
+.ml10 { margin-left:10px;}
+.bg { background:#FFF;}
+em,i{ font-style:normal;}
+
+
+/*banner*/
+.banner{ overflow:hidden; position:relative;}
+.banner p{ position:absolute; top:295px; left:50%; z-index:9;}
+.banner p a{ display:inline-block; width:445px; height:55px; margin-left:-220px;}
+.banner .bd li{height: 500px; overflow:hidden;}
+.banner .ba_01{background:url("banner.jpg")/*tpa=http://www.bossfq.com/images/banner.jpg*/ no-repeat center 0; }
+.banner .ba_02{background:url("banner2.jpg")/*tpa=http://www.bossfq.com/images/banner2.jpg*/ no-repeat center 0;}
+.banner .hd{    position: absolute;    z-index: 7;    bottom: 35px;    left:43%;    padding: 5px 6px;}
+.banner .hd li{width:40px;height:5px;color: #eae2d1;background: #ccc;float: left;cursor: pointer; margin-right:10px;}
+.banner .hd .on{ background:#f36f00;}
+.banner .bd li a{ display:block; height:500px;}
+/**/
+.yuan{ height:513px; overflow:hidden;margin-top:30px;}
+.yuan h3{ background:url("y_h3.jpg")/*tpa=http://www.bossfq.com/images/y_h3.jpg*/ no-repeat center 0; text-align:center; color:#c72924; font-size:36px; height:168px; padding-left:89px;}
+.yuan h3 i{ font-size:26px; font-weight:normal; color:#333; display:block; padding-top:45px; padding-bottom:7px;}
+.yuan dl{ float: left; padding:0 21px; height:288px; border-right:1px solid #ececec; width:165px; text-align:center;}
+.yuan dl.first{ padding-left:0;}.yuan dl.last{ padding-right:0; border:none;}
+.yuan dl dt img{ width:165px; height:165px;}
+.yuan dl dd h4{ line-height:50px; font-size:18px; color:#333; font-weight:400; background:url("y_lin2.gif")/*tpa=http://www.bossfq.com/images/y_lin2.gif*/ no-repeat center bottom;}
+.yuan dl dd  p{ line-height:24px; font-size:14px; color:#555; padding:7px 7px 0;}
+.yuan dl.cur dd h4{ background:url("y_lin.gif")/*tpa=http://www.bossfq.com/images/y_lin.gif*/ no-repeat center bottom;}
+/**/
+.ys{ height:610px; background:url("y_bg.gif")/*tpa=http://www.bossfq.com/images/y_bg.gif*/ repeat; overflow:hidden; clear:both;}
+.ys h2{ background:url("y_h2.jpg")/*tpa=http://www.bossfq.com/images/y_h2.jpg*/ no-repeat center 0; height:184px; overflow:hidden; color:#fff; text-align:center; font-weight:normal; font-size:22px; margin-bottom:60px;}
+.ys h2 i{ display:block; font-weight:bold; font-size:38px; font-weight:bold; padding-top:56px; line-height:100%; padding-bottom:13px;}
+.ys dl{ overflow:hidden;}
+.ys dl dt{ float:right;}
+.ys dl dd{ float:left; padding-top:58px; overflow:hidden; width:470px;}
+.ys dl dd h3{ float:left; width:80px; height:100px; background:#d90f0a; text-align:center; color:#fff; font-family:Impact; font-size:53px; font-weight:normal; line-height:100px; margin-right:18px;}
+.ys dl dd em{ display:inline-block; float:left; width:355px;}
+.ys dl dd em strong{ font-size:26px; color:#57575a;}
+.ys dl dd em strong span{ display:block; font-size:0; padding:7px 0 12px 0;}
+.ys dl dd em i{ display:block; color:#666; font-size:15px; line-height:32px; padding-left:15px; background:url("y_ico.gif")/*tpa=http://www.bossfq.com/images/y_ico.gif*/ no-repeat left 14px;}
+.ys2{ background:url("y_bg2.gif")/*tpa=http://www.bossfq.com/images/y_bg2.gif*/ repeat; padding-top:41px; height:385px;}
+.ys2 dl dt{ float:left;}
+.ys2 dl dd{ float:right; width:455px;}
+.ys3{ padding-top:45px; height:382px;}
+/**/
+.bm{ background:url("bm_bg.jpg")/*tpa=http://www.bossfq.com/images/bm_bg.jpg*/ no-repeat center 0; height:382px; overflow:hidden; margin-bottom:53px;}
+.bm .content{ position:relative;}
+.bm b{ display:inline-block; position:absolute; top:33px; left:0;}
+.bm h3{ padding:50px 0 0 292px;}
+.bm h3 i{
+	display: block;
+	padding-top: 20px;
+	width: 133px;
+	float: right;
+}
+.bm h3 i a{ display:inline-block; width:133px; height:39px; line-height:39px; text-align:center; font-size:20px; color:#fff; background:url("b_btn.png")/*tpa=http://www.bossfq.com/images/b_btn.png*/ no-repeat; font-size:0;}
+.bm h3 strong{ display:inline-block; float:right; margin:23px 28px 0 0; width:504px; height:199px; background:#c72924; border-radius:9px;}
+.bm h3 strong img{ display:inline-block; padding:30px 0 15px 34px;}
+.bm h3 strong span{ display:block; font-family:"宋体"; font-size:16px; color:#f3dcdc; font-weight:normal; line-height:30px; padding-left:60px; background:url("bm_ico.gif")/*tpa=http://www.bossfq.com/images/bm_ico.gif*/ no-repeat 39px 9px;}
+/**/
+.jiangs{ height:688px;}
+.jiangs h3{
+	height: 100px;
+	background: url("j_h3.jpg")/*tpa=http://www.bossfq.com/images/j_h3.jpg*/ no-repeat center 13px;
+	color: #08225F;
+	font-size: 36px;
+	text-align: center;
+	line-height: 100%;
+}
+.jiangs h3 span{ display:block; font-size:24px; color:#666; font-weight:normal; padding-top:3px;}
+.jiangs dl{ overflow:hidden;}
+.jiangs dl dt{ font-size:0; float:left; width:503px;}
+.jiangs dl dt img{ width:503px; height:537px;}
+.jiangs dl dd{ float: right; width:497px;}
+.jiangs dl dd p{ background:#eee; font-size:16px; color:#333; text-align:center; padding:43px 15px 0; height:135px; margin-bottom:1px;}
+.jiangs dl dd p i{ font-size:22px; color:#f36f00; font-weight:bold; display:block; line-height:33px; padding:3px 0;}
+/**/
+.tse{ background:url("ts_bg.jpg")/*tpa=http://www.bossfq.com/images/ts_bg.jpg*/ no-repeat center 0; height:527px; overflow:hidden; margin-bottom:50px;}
+.tse h3{
+	text-align: center;
+	color: #08225F;
+	font-size: 36px;
+	padding-top: 47px;
+	height: 65px;
+	line-height: 100%;
+}
+.tse dl{ overflow:hidden;}
+.tse dl dt{ float:left; width:464px; height:359px;}
+.tse dl dt img{width:464px; height:359px;}
+.tse dl dd{ background:#f1f1f1; width:488px; height:320px; padding:37px 0 0 32px; border:1px solid #dfdfdf; float:right;}
+.tse dl dd p{ height:77px; margin-bottom:28px; overflow:hidden;}
+.tse dl dd p em{ display:inline-block; float:left; width:90px; height:77px; line-height:77px; text-align:center; color:#fff; font-size:22px; font-weight:bold; background:#f36f00; margin-right:20px;}
+.tse dl dd p i{ display:inline-block; float:left; width:348px; font-size:18px; color:#333; line-height:25px; padding-top:11px;}
+.tse dl dd .cur em{ background:#c72924;}
+/**/
+.jz{ overflow:hidden; height:475px; position:relative;}
+.jz h3{
+	background: url("jz_h3.jpg")/*tpa=http://www.bossfq.com/images/jz_h3.jpg*/ no-repeat center 11px;
+	height: 63px;
+	line-height: 100%;
+	text-align: center;
+	color: #08225F;
+	font-size: 36px;
+}
+.j_l{ width:464px; height:359px; font-size:0; float:left; margin-right:10px;}
+.j_l img{width:464px; height:359px;}
+.j_r{ width:526px;}
+.j_r dl{ overflow:hidden;}
+.j_r dl dt{ float:left; font-size:0; width:235px;}
+.j_r dl dt img{ width:235px; height:359px;}
+.j_r dl dd{ float:left; width:253px; border:1px solid #dfdfdf; border-left:none; padding:35px 12px 0 24px; height:321px;}
+.j_r dl dd h4{ font-size:16px; color:#333; padding-bottom:9px;}
+.j_r dl dd p{ color:#666; font-size:14px; line-height:25px; text-indent:24px;}
+.jz_ud{ position:absolute; right:0; bottom:55px; font-size:0;}
+/**/
+.jc{ background: url("jc_bg.jpg")/*tpa=http://www.bossfq.com/images/jc_bg.jpg*/ no-repeat center bottom #f5f5f5; padding-top:39px; height:531px; margin-bottom:52px;}
+.jc .content{ position:relative;}
+.jc h3{ height:100px; text-align:center; background:url("jc_h3.jpg")/*tpa=http://www.bossfq.com/images/jc_h3.jpg*/ no-repeat center 13px; font-size:24px; color:#666; font-weight:normal;}
+.jc h3 i{
+	display: block;
+	color: #08225F;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 101%;
+	padding-bottom: 5px;
+}
+.jc ul{ overflow:hidden;left:307px; position:absolute; top:103px; width:778px;}
+.jc ul li{ float:left; width:384px; margin-right:1px; font-size:0; height:214px; position:relative; overflow:hidden;}
+.jc ul li img:hover{animation-duration: 1.5s;animation-name: pulse;}
+.jc ul li span{ display:block; position:absolute; left:0; bottom:0; width:384px; line-height:30px; height:30px; text-align:center; background:url("span.png")/*tpa=http://www.bossfq.com/images/span.png*/ repeat; font-size:15px; color:#fff;}
+.jc ul li span{ display: none;}
+.jc ul li.cur span{ display:block;}
+/**/
+.fw{ height:588px; overflow:hidden;}
+.fw h3{
+	height: 71px;
+	line-height: 100%;
+	background: url("fw_h3.jpg")/*tpa=http://www.bossfq.com/images/fw_h3.jpg*/ no-repeat center 12px;
+	text-align: center;
+	color: #08225F;
+	font-size: 36px;
+}
+.fw ul{ overflow:hidden;}
+.fw ul li{ float:left; width:190px; text-align:center; height:287px; margin-right:72px; font-size:20px; color:#666; background:url("fw_bg2.jpg")/*tpa=http://www.bossfq.com/images/fw_bg2.jpg*/ no-repeat center 0; font-weight:bold;}.fw ul li.nom{ margin-right:0;}
+.fw ul li i{ display:block; padding-top:36px; height:155px;}
+.fw ul li span{ display: block;}
+.fw ul li.cur{ background:url("fw_bg1.jpg")/*tpa=http://www.bossfq.com/images/fw_bg1.jpg*/ no-repeat center 0; color:#f36f00;}
+.fw p{ clear:both;}
+/**/
+.kk{ background:url("kk_bg.jpg")/*tpa=http://www.bossfq.com/images/kk_bg.jpg*/ no-repeat center 0; height:401px; margin-bottom:52px;}
+.k_l{ width:437px; padding-top:45px; color:#fff;}
+.k_l h3{ text-align:center; font-size:26px; font-weight:normal; height:45px;}
+.k_l p{ margin-left:52px; padding-left:23px; height:66px; line-height:66px; background:url("f_lin.jpg")/*tpa=http://www.bossfq.com/images/f_lin.jpg*/ no-repeat left 22px; font-size:17px; border-bottom:1px dotted #fac599; width:305px;}
+.k_l .nob{ border:none;}
+.k_r{ width:506px;}
+.k_r h3{ color:#c72924; font-size:26px; padding:42px 0 0 35px;}
+.k_r p{ padding-top:25px; color:#c72924; font-size:19px; margin-right:32px; height:87px;}
+.k_r h4{ padding-top:15px; font-weight:normal; font-size:19px; color:#333;margin-right:32px; height:100px;}
+.k_r h4 strong{ display:block; color:#c72924; font-size:20px; margin-bottom:8px;}
+.k_r em{ display:block; overflow:hidden; padding-left:70px;}
+.k_r em strong{ display:inline-block; float:left; font-size:16px; color:#333; font-weight:normal; width:202px;}
+.k_r em strong span{ display:block; color:#c72924; font-size:27px; font-weight:bold;}
+.k_r em i{ display:inline-block; float:left; margin-top:7px; background:url("f_btn.jpg")/*tpa=http://www.bossfq.com/images/f_btn.jpg*/ no-repeat; width:117px; height:36px; line-height:36px; text-align:center; font-size:18px;}
+.k_r em i a{ color:#fff;}
+/**/
+.zj{ overflow:hidden; height:678px;}
+.zj h3{
+	height: 72px;
+	text-align: center;
+	color: #08225F;
+	font-size: 36px;
+	background: url("zj_h3.jpg")/*tpa=http://www.bossfq.com/images/zj_h3.jpg*/ no-repeat center 13px;
+	line-height: 100%;
+}
+.zj dl dt{ font-size:0;}
+.zj dl dt img{ width:1000px; height:427px;}
+.zj dl dd h4{ text-align:center; padding-top:12px; line-height:59px; font-size:20px; color:#333;}
+.zj dl dd p{ color:#666; font-size:15px; line-height:22px; margin:0 78px 0 63px; text-align:center;}
+/**/
+.team{ padding-top:36px; border-top:1px solid #dedede; height:275px;}
+.team h3{ font-size:20px; color:#333; height:39px; line-height:100%;}
+.team ul{ overflow:hidden;}
+.team ul li{ font-size:0; float:left; width:324px; height:182px; position:relative; margin-right:14px;}.team ul li.nom{ margin-right:0;}
+.team ul li span{ display:inline-block; position:absolute; left:0; top:0;width:324px; height:182px; background:url("spn.png")/*tpa=http://www.bossfq.com/images/spn.png*/ repeat;}
+.team ul .cur span{ display:none;}
+.team ul li img:hover{animation-duration: 1.5s;animation-name: pulse;}
+/**/
+
+.fh{ width:32px; display:none; height:89px; position:fixed; right:20px; top:80%; cursor:pointer;}
+/**/
+
+/*在线客服*/
+.keifu{ position:fixed; top:10%; right:0; width:131px;  _position:absolute; _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.bottom,10)||0)-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+ z-index:990;}
+.keifu_tab{ width:160px;}
+.icon_keifu{ width:26px; height:100px; float:left; background:url("keifu.png")/*tpa=http://www.bossfq.com/images/keifu.png*/ repeat 0 0;position:relative; display:none; cursor:pointer;}
+.keifu_box{ float:left; width:131px;}
+.keifu_tab img{ display:block;}
+.keifu_head{ width:131px; height:41px;background:url("keifu.png")/*tpa=http://www.bossfq.com/images/keifu.png*/ repeat; background-position: 0 -103px; font-size:0; line-height:0; position:relative;}
+.keifu_close:link,.keifu_close:visited{ display:block; width:11px; height:11px;background:url("keifu.png")/*tpa=http://www.bossfq.com/images/keifu.png*/ repeat  -42px 0; position:absolute; top:5px; right:5px;}
+.keifu_close:hover{ background-position:-60px 0;}
+.keifu_con{ border-left:7px solid #029bdb; border-right:7px solid #029bdb; padding-top:5px; background:#fbfbfb;}
+.keifu_con li{height:33px; padding-left:4px;}
+.keifu_con .weixin{ height:264px;}
+.keifu_con .bt{ font-size:16px; height:30px; line-height:30px; text-align:left; padding:0 0 0 20px; color:#012646;}
+.keifu_bot{ width:131px; height:119px;background:url("keifu.png")/*tpa=http://www.bossfq.com/images/keifu.png*/ repeat ; background-position:0 -149px; }
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
